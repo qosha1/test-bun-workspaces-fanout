@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "start": "bun dist/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
